@@ -1,6 +1,6 @@
 <?php
 
-namespace plugin;
+namespace darksidesyt;
 
 use pocketmine\block\Air;
 use pocketmine\block\Block;
