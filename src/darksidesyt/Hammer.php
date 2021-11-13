@@ -163,7 +163,7 @@ class Hammer extends PluginBase implements Listener
 
             case Block::DIAMOND_ORE:
                       $rand = mt_rand(1,5);
-                return Item::get(Item::DIAMOND_INGOT,0, $rand);
+                return Item::get(Item::DIAMOND,0, $rand);
 
                 
 
