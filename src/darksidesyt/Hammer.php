@@ -161,9 +161,14 @@ class Hammer extends PluginBase implements Listener
                 return Item::get(Item::REDSTONE,0, $rand);
 
 
+            case Block::EMERALD_ORE:
+			          $rand = mt_rand(1,3);
+                return Item::get(Item::EMERALD,0, $rand);
+
+
             case Block::LAPIS_ORE:
 			          $rand = mt_rand(9,14);
-                return Item::get(Item::351,4, $rand);
+                return Item::get(Item::DYE,4, $rand);
 
 
             case Block::DIAMOND_ORE:
