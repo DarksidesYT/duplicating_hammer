@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/DarksidesYT/duplicating_hammer
+build-by-default: true
+branches:
+- main
+projects:
+  duplicating_hammer:
+    path: ""
+...
